@@ -27,7 +27,7 @@ let Test = mongoose.model('Test',testSchema)
 
  */
 
-app.use('./contacts', router)
+app.use('/Contact', router)
 
 
 

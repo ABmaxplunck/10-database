@@ -20,7 +20,7 @@ const contactSchema = new Schema({
         type: String,
         required: true,
         trim: true,
-        minLength: 9,
+        minLength: 1,
         maxLength: 15
     }
 
